@@ -1,0 +1,25 @@
+<!--
+    Como navegar pelos caminhos
+
+    - mesmo diretório (a pasta principal LINKS)
+    - entrando em diretórios (as pastas OUTROS e SUBPASTA)
+    - saindo de diretórios (../)
+    - diretório raíz (root ou pai)
+
+    ./  a própria pasta
+    ../ a pasta anterior (volte uma pasta)
+    OBS: esse=s elementos tomam como referencia a pasta atual emque o dev esta escrevendo o comando, ou seja, 
+    se ele esta trabalhando no arquivo CONTEUDO da pasta OUTROS e escreve o valor ./ dentro do atributo href"" ele acessará os arquivos da pasta principal OUTROS
+    se ele escreve o valor ../ dentro de href"" ele volta à pasta anterior, no caso a pasta LINK podendo acessar todos os seuas arquivos
+-->
+
+<a href="3-2-usando-hyperlinks.html">abrir hyperlinks</a>
+<br><!--no mesmo diretorio LINK-->
+<a href="./3-2-usando-hyperlinks.html">abrir hyperlinks</a>
+<br><!--na propria pasta LINK-->
+<a href="outros/conteudos.html">arquivos da pasta outros</a>
+<br><!--entrando em diretorios OUTROS-->
+<a href="subpasta/caminhos.html">arquivos da pasta subpasta</a>
+<br><!--entrando em diretorios SUBPASTA-->
+<a href="../LIINKS/3-1-tag-Ancora.html">arquivos pasta link</a>
+<br><!--voltou para pasta principaal que contem LINK, FIRSTCLASS, WORK-IF-ELEMENTS ....-->
